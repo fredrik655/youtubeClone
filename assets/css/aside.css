@@ -1,0 +1,47 @@
+
+aside {
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  min-height: 100vh;
+  width: 402px;
+}
+
+.side-vid {
+  width: 100%;
+  margin-bottom: 8px;
+  padding-bottom: 10px;
+  font-size: 10px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.side-vid > img {
+  width: 168px;
+  height: 94px;
+}
+
+.side-vid > div > h3 {
+  width: 100%;
+  padding-left: 10px;
+  height: 32px;
+}
+
+.side-vid > div > p {
+  width: 100%;
+  color: #676767;
+  padding-left: 10px;
+  font-size: 1.3em;
+}
+
+.aside-views {
+  height: 10px;
+}
+
+.aside-name {
+  padding-top: 10px;
+  height: 15px;
+}
+
+

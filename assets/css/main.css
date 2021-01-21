@@ -1,0 +1,286 @@
+
+main {
+  width: 70vw;
+  float: left;
+  padding-top: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+iframe {
+  width: 100%;
+  max-width: 1232px;
+  height: 693px;
+  margin: 0 0 0 auto;
+  padding-right: 32px;
+}
+
+#video-info {
+  width: 100%;
+  max-width: 1232px;
+  margin: 0 0 0 auto;
+  padding-right: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+#info-upper {
+  height: 108px;
+  border-bottom: 1px solid #303030;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  
+}
+
+#info-upper > h3 {
+  margin: 3px 0 10px 0;
+  font-size: 2em;
+}
+
+#hash-tag {
+  color: #3ea6ff;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+#channel-info-upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#channel-info-upper > p {
+  color: #a3a3a3;
+  font-size: 1.5em;
+}
+
+#channel-info-upper > div {
+  justify-self: flex-end;
+}
+
+#like-dislike {
+  padding-bottom: 10px;
+  margin-right: 240px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  border-bottom: 3px solid #909090;
+}
+
+#like-text {
+  color: #a3a3a3;
+  font-size: 1.5em;
+  margin: 0 20px 0 5px;
+}
+
+#dislike-text {
+  color: #a3a3a3;
+  font-size: 1.5em;
+  margin: 0 0 0 5px;
+}
+
+#like-dislike > img {
+  width: 24px;
+  height: 24px;
+}
+
+#info-lower {
+  border-bottom: 1px solid #303030;
+  height: 168px;
+}
+
+#lower-section-one {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#lower-section-one > section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#lower-section-one > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#lower-section-one > section > img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+#lower-section-two {
+  margin: 30px 0 0 58px;
+}
+
+#show-more-text {
+  font-size: 1.3em;
+  margin-top: 30px;
+  color: #aaa;
+}
+
+#rand-text {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+#join-btn {
+  width: 72px;
+  height: 37px;
+  text-align: center;
+  border: 1px solid #3da5fe;
+  border-radius: 3px;
+}
+
+#join-btn > p  {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 37px; 
+  font-size: 1.5em;
+  color: #3da5fe;
+}
+
+#sub-btn {
+  width: 105px;
+  height: 37px;
+  background-color: #CC0000;
+  border: 1px solid #CC0000;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+#sub-btn {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 37px; 
+  font-size: 1.5em;
+  color: #fffcfc;
+}
+
+#lower-section-one h2 {
+  margin: 3px 0 10px 0;
+  font-size: 1.4em;
+  color: white;
+}
+
+#lower-section-one > section > div {
+  margin-left: 10px;
+}
+
+#lower-section-one h2 + p{
+  color: #a3a3a3;
+  font-size: 1.5em;
+}
+
+#comment-section {
+  width: 100%;
+  max-width: 1232px;
+  margin: 0 0 0 auto;
+  padding-right: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+#comment-section-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 24px 0 24px 0;
+}
+
+#comment-section-info > p {
+  font-size: 1.8em;
+  color: #fff;
+}
+
+#comment-section-info > img {
+  margin: 0 10px 0 20px;
+}
+
+#user-comment {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+#user-comment > input {
+  border: none;
+  width: 100%;
+  margin-left: 16px;
+  padding: 0 0 3px 5px;
+  background-color: #181818;
+  border-bottom: 1px solid #303030;
+  color: #a3a3a3;
+}
+
+.user-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.comments {
+  display: flex;
+  flex-direction: row;
+  height: 105px;
+}
+
+.user-comment-info {
+  margin-left: 16px;
+}
+
+.user-comment-info > p {
+  margin-top: 10px;
+  font-size: 1.4em;
+  color: #fff;
+}
+
+.comment-name-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.comment-name-time > p{
+  margin-left: 5px;
+  font-size:  1.3em;
+  color: #a3a3a3;
+}
+
+.comment-name-time > h4 {
+  font-size:  1.3em;
+  color: #fff;
+}
+
+.like-dislike-comment {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.like-dislike-comment > p {
+  margin-right: 8px;
+  font-size: 1.3em;
+  color: #909090;
+}
+
+.like-dislike-comment > img {
+  width: 16px;
+  height: 16px;
+  padding: 8px 8px 8px 0;
+}
+
+
+
